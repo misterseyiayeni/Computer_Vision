@@ -10,3 +10,17 @@ Train your model.
 Test your model with new images.
 Integrate your model into your own image recognition app.
 
+# Steps to Call the Prediction API
+
+How to use the Prediction API
+If you have an image URL:
+https://createml-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/cdc5c8e7-8d21-4ca6-95ca-0fff94a53a85/classify/iterations/Cat%20Detection/url
+Set Prediction-Key Header to : 17cfd001ecaa4341b776ac53ae73eb61
+Set Content-Type Header to : application/json
+Set Body to : {"Url": "https://example.com/image.png"}
+If you have an image file:
+https://createml-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/cdc5c8e7-8d21-4ca6-95ca-0fff94a53a85/classify/iterations/Cat%20Detection/image
+Set Prediction-Key Header to : 17cfd001ecaa4341b776ac53ae73eb61
+Set Content-Type Header to : application/octet-stream
+Set Body to : <image file>
+
