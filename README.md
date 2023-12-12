@@ -1,5 +1,5 @@
 # Computer_Vision
-This project uses Microsoft Azure Custom Vision to train images and afterwards expose a prediction API. This API is called from a client e.g. a notebook to get the predictions.
+This project uses the Microsoft Azure Custom Vision API to train images and afterwards expose a prediction API. This API is called from a client e.g. a notebook to get the predictions.
 
 # Steps to Set up the model
 Create a Custom Vision resource in Azure Portal.
